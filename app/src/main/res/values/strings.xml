@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">微信开门小程序</string>
+    <string name="no_room">暂无房间</string>
+    <string name="no_order">暂无订单</string>
+
+    <string name="press_exit_again" translatable="false">再按一次退出程序</string>
+    <string name="lock_list">搜索列表</string>
+    <string name="searching">搜索中...</string>
+    <string name="notice">提示</string>
+    <string name="ble_not_support">BLE设备功能不支持！</string>
+    <string name="ok">OK</string>
+    <string name="action_enable_ble">Enable bluetooth now?</string>
+    <string name="ble_permission_not_granted">未打开蓝牙权限！是否开启</string>
+    <string name="progress_connecting">蓝牙连接中...</string>
+    <string name="state_connected">已连接</string>
+    <string name="state_disconnected">未连接</string>
+    <string name="ble_connection_interrupted">连接中断</string>
+    <string name="ble_connection_fail">连接失败！</string>
+    <string name="exit">退出</string>
+    <string name="state_ready">已就绪</string>
+    <string name="cmd_rsp_fail">命令回复失败！</string>
+    <string name="format_lock_state">门锁MAC: %1$s，绑定状态: %2$b</string>
+    <string name="format_dev_mac">设备MAC：%1$s</string>
+    <string name="format_dev_type">设备类型：%1$s</string>
+    <string name="lock_type_other">蓝牙密码锁</string>
+    <string name="lock_type_nb">蓝牙NB锁</string>
+    <string name="lock_type_f">蓝牙指纹锁</string>
+    <string name="lock_type_c">蓝牙NB指纹锁</string>
+    <string name="bind_lock">绑定</string>
+    <string name="unbind_lock">解绑</string>
+    <string name="lock_state">查询状态</string>
+    <string name="lock_battery">查询电量</string>
+    <string name="nb_imei">查询IMEI</string>
+    <string name="lock_login">进登录状态</string>
+    <string name="open_lock">蓝牙解锁</string>
+    <string name="sync_clock">同步时间</string>
+    <string name="add_pincode">添加密码</string>
+    <string name="del_pincode">删除密码</string>
+    <string name="add_rf_card">添加房卡</string>
+    <string name="del_rf_card">删除房卡</string>
+    <string name="add_fingerprint">添加指纹</string>
+    <string name="del_fingerprint">删除指纹</string>
+    <string name="change_admin_pincode">修改管理密码</string>
+    <string name="gen_offline_pincode">生成离线限时密码</string>
+    <string name="ready_to_swipe_rf_card">请刷卡！</string>
+    <string name="bind_lock_succ">绑定成功！</string>
+    <string name="bind_lock_fail">绑定失败！</string>
+    <string name="unbind_lock_succ">解绑成功！</string>
+    <string name="unbind_lock_fail">解绑失败！</string>
+    <string name="open_lock__succ">开锁成功！</string>
+    <string name="open_lock_fail">开锁失败！</string>
+    <string name="lock_login_succ">登录成功！</string>
+    <string name="lock_login_fail">登录失败！</string>
+    <string name="sync_clock_succ">同步时间成功！</string>
+    <string name="sync_clock_fail">同步时间失败！</string>
+    <string name="format_lock_battery">门锁电量为: %1$d%%</string>
+    <string name="format_lock_battery_low_info">已上锁！电量预警！当前门锁电量为: %1$d%%</string>
+    <string name="format_lock_battery_low_warn">已上锁！电量报警！当前门锁电量为: %1$d%%</string>
+    <string name="report_lock_battery">已上锁！</string>
+    <string name="detect_new_rf_card">检测到新卡</string>
+    <string name="format_add_rf_card_or_not">是否添加此房卡，卡号：%1$s？</string>
+    <string name="format_rf_card_unlock_succ">房卡开锁成功，序号：%1$d！</string>
+    <string name="multi_rf_card_unlock_fail">多次刷房卡开锁失败！</string>
+    <string name="format_rf_card_unlock_succ2">房卡开锁成功，卡号：%1$s！</string>
+    <string name="multi_rf_card_unlock_fail2">房卡未授权，卡号：%1$s！</string>
+    <string name="format_pincode_unlock_succ">密码开锁成功，序号：%1$d！</string>
+    <string name="multi_pincode_unlock_fail">多次密码开锁失败！</string>
+    <string name="format_pincode_unlock_succ2">密码：%1$d开锁成功！</string>
+    <string name="format_pincode_unlock_fail2">密码：%1$d未授权！</string>
+    <string name="format_offline_pincode_succ">离线密码：</string>
+    <string name="format_offline_pincode_fail">生成出错：%1$s！</string>
+    <string name="format_fingerprint_unlock_succ">指纹开锁成功，序号：%1$d！</string>
+    <string name="multi_fingerprint_unlock_fail">多次指纹开锁失败！</string>
+    <string name="format_nb_imei">设备IMEI号为：%1$s！</string>
+    <string name="add_pincode_succ">密码添加成功！</string>
+    <string name="add_pincode_fail">添加密码失败！</string>
+    <string name="del_pincode_succ">删除密码成功！</string>
+    <string name="del_pincode_fail">删除密码失败！</string>
+    <string name="add_rf_card_succ">添加房卡成功！</string>
+    <string name="add_rf_card_fail">添加房卡失败！</string>
+    <string name="del_rf_card_succ">删除房卡成功！</string>
+    <string name="del_rf_card_fail">删除房卡失败！</string>
+    <string name="add_fingerprint_succ">添加指纹成功！</string>
+    <string name="add_fingerprint_fail">添加指纹失败！</string>
+    <string name="del_fingerprint_succ">删除指纹成功！</string>
+    <string name="del_fingerprint_fail">删除指纹失败！</string>
+    <string name="change_admin_pincode_succ">修改管理密码成功！</string>
+    <string name="change_admin_pincode_fail">修改管理密码失败！</string>
+    <string name="ready_to_press_fingerprint">请按压指纹！</string>
+    <string name="action_to_press_fingerprint">请按下指纹！</string>
+    <string name="action_to_leave_fingerprint">移开指纹</string>
+    <string name="error_login_state_off">操作前请先登录！</string>
+    <string name="error_wait_timeout">操作操时！</string>
+    <string name="error_user_cancel">用户取消操作！</string>
+    <string name="error_time_invalid">时间参数有误！</string>
+    <string name="error_index_invalid">操作序号有误！</string>
+    <string name="lock_swarm">锁相关操作</string>
+    <string name="wsl">WSL</string>
+    <string name="qzh_ble">QZH_BLE</string>
+    <string name="search_later_on">正在搜索中，请稍后...</string>
+    <string name="admin_name_no_empty">管理员密码不能为空</string>
+    <string name="doing_get_data">正在获取数据</string>
+    <string name="nonsupport_ble">此手机不支持BLE</string>
+
+
+
+    <string name="start_scan" >开始扫描</string>
+    <string name="stop_scan">停止扫描</string>
+    <string name="expand_search_settings" >展开搜索设置</string>
+    <string name="retrieve_search_settings" translatable="false">收起搜索设置</string>
+    <string name="connect_fail" >设备状态：蓝牙门锁连接失败请重试</string>
+    <string name="connect_success" >设备状态：蓝牙门锁连接成功</string>
+    <string name="disconnected" >设备状态：蓝牙门锁连接已断开</string>
+    <string name="connect_start" >设备状态：正在连接蓝牙门锁请稍后…</string>
+    <string name="scan_start" >设备状态：开始搜索蓝牙门锁请稍后…</string>
+    <string name="scan_scan" >设备状态：正在搜索蓝牙门锁请稍后…</string>
+    <string name="scan_finish" >设备状态：蓝牙门锁搜索完成</string>
+    <string name="banner_hint">1.该门锁一锁一码，您可以扫码后直接点击开锁，填写入住民宿的身份证然后进行验证后打开门锁，也可以查看心仪的民宿线上直接下单，当商家接单后，从订单详情里直接点击去开门按钮后打开门锁
+    \n2.当您想通过门锁二维码开锁时，请确保以下几点，方便您能顺利打开门锁：\n（1）请像商家确定民宿准确位置。\n（2）请确定填写的身份证和 下单身份证保持一致。您现在所登录的手机号为:%1$s，身份证后四位为:%2$s，如需更换请点击切换证件号按钮进行更换 。
+    \n3.首次开门时需缴纳无证核验费（费用/每笔订单/每个证件号），此费用为服务费，不支持退款
+    \n4.该锁需要通过蓝牙连接锁，开门之前请确保蓝牙打开并且未配对状态，开锁时请点亮蓝牙锁。
+    \n5.如果蓝牙一直连接不上，请关闭手机蓝牙重新打开在连接门锁</string>
+
+</resources>

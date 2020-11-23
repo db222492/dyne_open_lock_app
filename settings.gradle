@@ -1,0 +1,2 @@
+include ':app',  ':faceplatform-release',':faceplatform-ui'
+rootProject.name = "Dyne_Lock"
